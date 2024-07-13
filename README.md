@@ -1,6 +1,6 @@
 # CRUD Aplicacion sobre Producto con JSON Interno y VueJS-EasyUI -COVEP
 ## Operaciones: Adicion, modificacion, eliminacion y busqueda
-
+## https://github.com/fabinnerself/covep.git
 ### Descripcion
 
 Este proyecto implementa operaciones CRUD completas (Crear, Leer, Actualizar y Eliminar), junto con filtrado y paginación en un grid a datos JSON. A continuación, se describen las funcionalidades principales:
@@ -93,6 +93,7 @@ Extraido y adecuado de https://www.jeasyui.com/download/vx12.php
 
 ## Comandos utiles
 lsb_release -a && uname -r
+
 node -v && nvm -v && npm -v && npx -v && vue -V 
 
 (C) 2024 Favian Medina Gemio
