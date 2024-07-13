@@ -493,14 +493,15 @@ export default {
         }
       });
     },
-    deleteRow(row) {
+    deleteRow() {
+       
       if (this.selection) {
         this.$messager.confirm({
           title: 'Confirmar',
           msg: '¿Está seguro de eliminar el registro de este producto?',
           result: (r) => {
             if (r) {
-              const index = this.data.indexOf(row);
+              const index = this.data.indexOf(this.selection);
               this.data.splice(index, 1);
               this.data = [...this.data];
             }
